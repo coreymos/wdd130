@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Source+Sans+Pro&display=swap');
+
 #content {
     max-width: 1600px; margin: 0 auto;
 }
@@ -5,6 +7,7 @@ nav a {
     text-align: center;
     color: black;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1 {
     text-align: center;
@@ -18,12 +21,18 @@ nav a {
 main section {
     text-align: center;
 }
+main section img {
+    box-sizing: border-box;
+}
 #background {
     height: 725px;
     background-color: #8ecae6;
 }
 body {
     background-color: #8ecae6; 
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color:#637a48;
@@ -31,15 +40,14 @@ header {
 nav a:hover {
     background-color: #676767;
 }
-.book {
+.book, .join {
     background-color: #8ecae6;
     color: #000000;
     text-decoration: none;
-}
-.join {
-    background-color: #8ecae6;
-    color: #000000;
-    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover {
     background-color: #676767;
@@ -51,21 +59,34 @@ nav a:hover {
 }
 .msg {
     background-color: #8ecae6;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer {
     background-color: #115255;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 .home-title {
+    font-family: "Caveat Brush";
+    font-size: 2em;
     color: #000000;
+    margin-top: 10px;
 }
 h4 {
     color: #000000;
 }
+h2 {
+    margin: 0;
+}
 .msg h2 {
     color: #000000;
+    font-family: Source Sans Pro, Helvetica, sans serif;
 }
 .msg p {
     color: #000000;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer h3 {
     color: #FFFFFF;
@@ -82,10 +103,23 @@ footer a:hover {
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img {
     width: 100%;
 }
 footer h3 a:hover {
     text-decoration: underline;
+}
+#logo_link {
+    padding-top: 5px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid black;
 }
