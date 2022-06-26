@@ -120,42 +120,42 @@ footer .social img {
 .first-card{
     margin: 200px 0;
     grid-row: 2/4;
-    grid-column: 1/4;
+    grid-column: 2/4;
 } 
 .second-card {
     margin: 200px 0;
     grid-row: 2/4;
-    grid-column: 4/7;
+    grid-column: 5/6;
 }
 .third-card {
     margin: 200px 0;
     grid-row: 3/5;
-    grid-column: 1/4;
+    grid-column: 2/4;
 }
 .fourth-card{
     margin: 200px 0;
     grid-row: 3/5;
-    grid-column: 4/7;
+    grid-column: 5/6;
 } 
 .fifth-card {
     margin: 200px 0;
     grid-row: 4/6;
-    grid-column: 1/4;
+    grid-column: 2/4;
 }
 .sixth-card {
     margin: 200px 0;
     grid-row: 4/6;
-    grid-column: 4/7;
+    grid-column: 5/6;
 }
 .seventh-card {
     margin: 200px 0;
     grid-row: 5/7;
-    grid-column: 1/4;
+    grid-column: 2/4;
 }
 .eighth-card {
     margin: 200px 0;
     grid-row: 5/7;
-    grid-column: 4/7;
+    grid-column: 5/6;
 }
 .card-img{
     border: 10px solid black;
